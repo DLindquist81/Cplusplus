@@ -1,0 +1,69 @@
+// c4n2.cpp : Defines the entry point for the console application.
+// This program will Switch a number with its roman numeral
+
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+	//variables
+	double num1;
+	//input
+	cout<<"Please enter a number between 1 and 10\n";
+	cin>>num1;
+	//if statement
+	if (num1 < 1 )
+	{
+		cout<<"Number is invalid,  \n";
+	}
+	if (num1 > 10)
+	{
+		cout<<"Number is invalid,  \n";
+	}
+	
+	if (num1 == 1)
+	{	
+		cout<<"The roman numeral for the number you entered is I\n";
+	}
+	if (num1 == 2)
+	{
+		cout<<"The roman numeral for the number you entered is II";
+	}
+	if (num1 == 3)
+	{
+		cout<<"The roman numeral for the number you entered is III\n";
+	}
+	if (num1 == 4)
+	{
+		cout<<"The roman numeral for the number you entered is IV\n";
+	}
+	if (num1 == 5)
+	{
+		cout<<"The roman numeral for the number you entered is V\n";
+	}
+	if (num1 == 6)
+	{
+		cout<<"The roman numeral for the number you entered is VI\n";
+	}
+	if (num1 == 7)
+	{
+		cout<<"The roman numeral for the number you entered is VII\n";
+	}
+	if (num1 == 8)
+	{
+		cout<<"The roman numeral for the number you entered is VIII\n";
+	}
+	if (num1 == 9)
+	{
+		cout<<"The roman numeral for the number you entered is IX\n";
+	}
+	if (num1 == 10)
+	{
+		cout<<"The roman numeral for the number you entered is X\n";
+	}
+	
+	system("pause");
+	return 0;
+}
+
